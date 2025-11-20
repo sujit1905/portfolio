@@ -427,11 +427,79 @@ nav img {
 }
 .learnmorebutton:hover{
   background: rgba(255, 255, 255, 0.014);
-
 }
 
 
+/* My work */
+.Mywork{
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(
+      circle at 50% 120%,
+      rgba(0, 255, 200, 0.211),
+      transparent 60%
+    ),
+    linear-gradient(to bottom, #000000eb, #0d0d0d);
+}
+.mywork-heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  font-size: 2.5rem;
+  padding-top: 80px;
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
 
+.mywork-info{
+
+  text-align: center;
+  color: rgba(255, 255, 255, 0.684);
+  font-family: "Momo Trust Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  padding: 8vh 44vh;
+  line-height: 3.7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shiny-underline2{
+    font-family: 'Preahvihear', sans-serif;
+    position: relative;
+    display: inline-block;
+    color: inherit;
+}
+
+.shiny-underline2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(120deg,
+            transparent,
+          rgba(0, 255, 200, 0.511),
+            transparent);
+    background-size: 200% 100%;
+    animation: shimmer 3s linear infinite;
+}
+@keyframes shimmer {
+    0% {
+        background-position: 200% 0;
+    }
+
+    100% {
+        background-position: -200% 0;
+    }
+}
 
 
 /* Responsive */

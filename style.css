@@ -728,16 +728,33 @@ nav img {
 /* RESPONSIVE: keep card sizes but stack when viewport is small */
 @media (max-width: 1200px) {
   .projects-grid {
-    grid-template-columns: repeat(2, 25vw);
+    grid-template-columns: repeat(3, 27vw);
     justify-content: center;
+  }
+  .Mywork {
+    height: 140vh;
+  }
+
+}
+@media (max-width: 1040px) {
+  .projects-grid{
+    grid-template-columns: repeat(2, 33vw);
+    justify-content: center;
+  }
+  .Mywork {
+    height: 210vh;
   }
 }
 @media (max-width: 900px) {
   .projects-grid {
     grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .project-card {
-    width: 100%;
+    width: 60%;
     min-width: auto;
   }
   .card-media {
@@ -745,6 +762,9 @@ nav img {
   }
   .projects-wrap {
     padding: 12px;
+  }
+  .Mywork{
+    height: 300vh;
   }
 }
 

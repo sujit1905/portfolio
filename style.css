@@ -725,6 +725,35 @@ nav img {
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6);
 }
 
+.view-all-my-work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.view-all-my-work-button {
+  padding: 12px 28px;
+  border-radius: 8px;
+
+  /* 🔥 Glassmorphism */
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.234);
+
+  color: var(--nav-text);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.view-all-my-work-button:hover {
+  background: rgba(255, 255, 255, 0.014);
+}
+
+
 /* RESPONSIVE: keep card sizes but stack when viewport is small */
 @media (max-width: 1200px) {
   .projects-grid {
@@ -741,7 +770,7 @@ nav img {
     justify-content: center;
   }
   .Mywork {
-    height: 210vh;
+    height: 240vh;
   }
 }
 @media (max-width: 900px) {
@@ -1206,7 +1235,7 @@ nav img {
   }
   .Mywork {
     width: 100%;
-    height: 260vh;
+    height: 270vh;
     background: radial-gradient(
         circle at 50% 120%,
         rgba(0, 255, 200, 0.211),
@@ -1225,7 +1254,7 @@ nav img {
   }
   .Mywork {
     width: 100%;
-    height: 200vh;
+    height: 265vh;
     background: radial-gradient(
         circle at 50% 120%,
         rgba(0, 255, 200, 0.211),
@@ -1579,7 +1608,7 @@ nav img {
   }
   .Mywork {
     width: 100%;
-    height: 240vh;
+    height: 280vh;
     background: radial-gradient(
         circle at 50% 120%,
         rgba(0, 255, 200, 0.211),

@@ -92,3 +92,6 @@ observer.observe(document.querySelector(".cards"));
 
 
 
+
+
+// humberger

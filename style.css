@@ -2228,3 +2228,16 @@ nav img {
   justify-content: center;
 }
 }
+
+
+
+.nav-list.active {
+  display: flex !important;
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  background: rgba(0,0,0,0.8);
+  padding: 20px;
+  border-radius: 10px;
+}

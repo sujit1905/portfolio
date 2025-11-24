@@ -90,8 +90,11 @@ const observer = new IntersectionObserver(entries => {
 
 observer.observe(document.querySelector(".cards"));
 
-
-
-
-
 // humberger
+
+let humberger = document.querySelector(".humburger");
+let navlist = document.querySelector(".nav-list");
+
+humberger.addEventListener("click", () => {
+  navlist.classList.toggle("active");
+});
